@@ -167,7 +167,7 @@ set nofoldenable
 set foldmethod=syntax
 
 " Minimum number of screen rows above and below the cursor
-set scrolloff=4
+set scrolloff=10
 
 " Minimum number of screen columns to the left and right of the cursor
 set sidescrolloff=0
