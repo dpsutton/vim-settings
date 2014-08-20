@@ -34,6 +34,9 @@ Plugin 'skwp/vim-rspec'
 " Color Schemes
 Plugin 'flazz/vim-colorschemes'
 
+" Indent level lines
+Plugin 'Yggdroot/indentLine'
+
 """"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 " Language Plugins
 """"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
@@ -91,7 +94,7 @@ let g:RspecKeymap=0
 " Colorscheme
 " hybrid, solarized, gruvbox, bubblegum, luna, badwolf, monokai
 set background=dark
-colors solarized
+colors Tomorrow-Night-Eighties
 
 " Font depending on OS
 if has("win32")
