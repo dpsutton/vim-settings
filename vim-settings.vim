@@ -100,7 +100,7 @@ colors Tomorrow-Night-Eighties
 if has("win32")
   set guifont=DejaVu_Sans_Mono_for_Powerline:h10:cANSI
 else
-  set guifont=Monaco\ for\ Powerline\ 13
+  set guifont=Monaco_for_Powerline:h13
 end
 
 " Hide scrollbars
