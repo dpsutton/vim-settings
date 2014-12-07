@@ -94,7 +94,7 @@ let g:RspecKeymap=0
 " Colorscheme
 " hybrid, solarized, gruvbox, bubblegum, luna, badwolf, monokai
 set background=dark
-colors Tomorrow-Night-Eighties
+colors solarized
 
 " Font depending on OS
 if has("win32")
@@ -126,6 +126,12 @@ autocmd BufNewFile,BufReadPost *.md set filetype=markdown
 """"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 " Enable Vim
 set nocompatible
+filetype on
+filetype off
+
+" workaround for vim not working for git
+filetype on
+filetype off
 
 " Variables can be set per file
 set modeline
