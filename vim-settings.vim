@@ -68,6 +68,9 @@ Plugin 'kchmck/vim-coffee-script'
 let g:syntastic_cpp_compiler = 'clang++'
 let g:syntastic_cpp_compiler_options = ' -std=c++11 -stdlib=libc++'
 
+" JShint for javascript linting
+let g:syntastic_javascript_checkers = ['jshint']
+
 " NERDTree open on GUI startup
 let g:nerdtree_tabs_open_on_gui_startup=0
 
