@@ -37,6 +37,9 @@ Plugin 'flazz/vim-colorschemes'
 " Indent level lines
 Plugin 'Yggdroot/indentLine'
 
+" Dash plugin
+Plugin 'rizzatti/dash.vim'
+
 """"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 " Language Plugins
 """"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
