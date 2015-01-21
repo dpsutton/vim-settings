@@ -35,7 +35,8 @@ Plugin 'skwp/vim-rspec'
 Plugin 'flazz/vim-colorschemes'
 
 " Indent level lines
-Plugin 'Yggdroot/indentLine'
+" Plugin 'Yggdroot/indentLine'
+Plugin 'nathanaelkane/vim-indent-guides'
 
 " Dash plugin
 Plugin 'rizzatti/dash.vim'
