@@ -1,7 +1,7 @@
 " Path to the bundle folder
-let vimsettings_bundlepath = "BUNDLE_PATH"
+let vimsettings_bundlepath = "~/.vim/bundle"
 " Git username of vim-settings
-let vimsettings_username = "USERNAME"
+let vimsettings_username = "dpsutton"
 
 " Vundle setup
 exec ":set runtimepath+=" . vimsettings_bundlepath . "/vundle/"
