@@ -105,7 +105,11 @@ let g:RspecKeymap=0
 " Colorscheme
 " hybrid, solarized, gruvbox, bubblegum, luna, badwolf, monokai
 set background=dark
-colors solarized
+if has("gui_running")
+  colorscheme solarized
+else
+  colorscheme Tomorrow-Night-Eighties
+end
 
 " Font depending on OS
 if has("win32")
