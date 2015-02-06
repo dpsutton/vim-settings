@@ -41,6 +41,9 @@ Plugin 'nathanaelkane/vim-indent-guides'
 " Dash plugin
 Plugin 'rizzatti/dash.vim'
 
+" SML syntastic stuff
+Plugin 'imeckler/sml-syntastic'
+
 """"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 " Language Plugins
 """"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
@@ -69,7 +72,7 @@ Plugin 'kchmck/vim-coffee-script'
 " Plugin Options
 """"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 " C++ linter for c++11 options
-let g:syntastic_cpp_compiler = 'clang++'
+let g:syntastic_cpp_compiler = 'g++'
 let g:syntastic_cpp_compiler_options = ' -std=c++11 -stdlib=libc++'
 
 " JShint for javascript linting
